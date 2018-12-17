@@ -1,25 +1,14 @@
-ul{
-  list-style-type: none;
-  padding:40px;
-}
-
-li{
-  display: inline;
-  margin-left: auto;
-  padding:40px;
-}
-
-.logo{
+.logo {
   font-family: gothic sans-serif;
   font-size: 2em;
+  background-color: #4d004d;
+  line-height: 2.5em;
   padding:40px;
-  margin-right: auto;
 }
 
-nav{display: flex;
-  flex-direction: row;
-  background-color: #1f0d30;
-  line-height: 2.5em;
+.logo a{
+  text-decoration: none;
+  color:white;
 }
 
 nav a {
@@ -30,4 +19,72 @@ nav a {
 
 nav a:hover{
   border-bottom: solid white 2px;
+}
+
+main {
+font-family: sans-serif;
+text-align: justify;
+margin:8px;
+padding:8px;
+}
+
+img{
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 4px;
+}
+
+.introStyle{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer {
+  color: white;
+margin-top: 70%;
+line-height: 1.5em;
+background-color: #4d004d;
+
+}
+
+input[type=submit] {
+
+  padding:2px;
+  border-radius: 2px;
+}
+
+
+@media screen and (max-width: 560px) {
+
+  .logo{
+    text-align: center;
+  }
+
+  nav{display: flex;
+    flex-direction: row;
+    background-color: #111b8c;
+    line-height: 2.5em;
+  }
+
+  ul{
+    list-style-type: none;
+    margin: auto;
+  }
+
+  li{
+    text-align: center;
+    display: inline;
+    padding:4px;
+  }
+
+  .introImage1{
+    margin-bottom: 1em;
+  }
+
+.introImage2{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 }
