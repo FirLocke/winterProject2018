@@ -1,0 +1,33 @@
+ul{
+  list-style-type: none;
+  padding:40px;
+}
+
+li{
+  display: inline;
+  margin-left: auto;
+  padding:40px;
+}
+
+.logo{
+  font-family: gothic sans-serif;
+  font-size: 2em;
+  padding:40px;
+  margin-right: auto;
+}
+
+nav{display: flex;
+  flex-direction: row;
+  background-color: #1f0d30;
+  line-height: 2.5em;
+}
+
+nav a {
+  text-decoration: none;
+  color:white;
+
+}
+
+nav a:hover{
+  border-bottom: solid white 2px;
+}
